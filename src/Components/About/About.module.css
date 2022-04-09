@@ -1,0 +1,47 @@
+.about {
+  background-color: #1abc9c;
+  padding-block: 75px;
+  min-height: 55vh;
+}
+
+.about h2 {
+  color: white;
+}
+
+.about .divider {
+  position: relative;
+  text-align: center;
+  margin-block: 10px !important;
+  width: 40px;
+  margin: auto;
+}
+.about i {
+  display: block;
+  margin: auto;
+  color: white;
+  font-size: 30px;
+}
+
+.about .divider::before,
+.about .divider::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 4px;
+  top: 15px;
+  background-color: white;
+}
+
+.about .divider::before {
+  left: 50px;
+}
+.about .divider::after {
+  right: 50px;
+}
+
+.about p {
+  line-height: 1.6 !important;
+  margin-top: 30px !important;
+  font-size: 1.25rem !important;
+  font-weight: 400 !important;
+}

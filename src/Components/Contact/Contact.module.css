@@ -1,0 +1,78 @@
+.contact {
+  padding-block: 70px;
+}
+.contact .divider {
+  position: relative;
+  text-align: center;
+  margin-block: 10px !important;
+  width: 40px;
+  margin: auto;
+}
+.contact i {
+  display: block;
+  margin: auto;
+  color: #2c3e50;
+  font-size: 30px;
+}
+
+.contact .divider::before,
+.contact .divider::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 4px;
+  top: 15px;
+  background-color: #2c3e50;
+}
+
+.contact .divider::before {
+  left: 50px;
+}
+.contact .divider::after {
+  right: 50px;
+}
+
+.form-group {
+  margin-block: 40px;
+}
+
+
+
+input,
+textarea {
+  border-top: none !important; 
+  border-inline: none !important;
+  outline: none !important;
+  font-size: 1.3rem !important;
+  font-weight: 500 !important;
+  display: block;
+}
+
+.form-group:not(input[type="submit"]) {
+  border-bottom: solid 1px #c9cbce !important;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+}
+
+textarea {
+  padding-left: 15px !important;
+  resize: none !important;
+  height: 180px !important;
+  margin-bottom: 20px !important;
+}
+
+input[type="submit"] {
+  padding: 20px 30px;
+  background-color: #1abc9c;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #18ad90;
+}
+

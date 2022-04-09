@@ -1,0 +1,72 @@
+.modal {
+  position: relative;
+  text-align: center;
+  margin-block: 20px !important;
+}
+
+.modal i {
+  display: block;
+  margin: auto;
+}
+
+.modal .divider {
+  position: relative;
+  text-align: center;
+  width: 40px;
+  margin: auto;
+}
+
+.modal .divider::before,
+.modal .divider::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 4px;
+  background-color: #2c3e50;
+  border-radius: 2px;
+}
+
+.modal .divider::before {
+  left: 60px;
+}
+.modal .divider::after {
+  right: 60px;
+}
+
+.modal + p {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.main-color {
+  color: var(--main-color) !important;
+}
+
+@media (min-width: 767px) {
+  .modal-dialog {
+    max-width: 60% !important;
+    margin: auto;
+  }
+}
+
+.modal-content {
+  border-radius: 15px !important;
+}
+
+.main-background {
+  background-color: var(--main-color) !important;
+}
+
+.modal-body .container {
+  margin: auto !important;
+  max-width: 750px;
+}
+
+
+.modal-body img{
+  border-radius: 15px ;
+}
+
+.modal-footer button{
+  border-radius: 10px !important;
+}
